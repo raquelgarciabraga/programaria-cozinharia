@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/cardapio.css" type="text/css">
+        <title>Cozinharia</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="container flex">
+                <a class="logo" href="index.html">
+                    <img src="img/logo-cozinharia.svg" alt="logo cozinharia">
+                </a>
+                <button class="botao-menu" id="botao-menu">
+                    <img src="img/menu.svg">
+                </button>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="a-cozinharia.html">A Cozinharia</a></li>
+                        <li><a class="active" href="cardapio.html">Cardápio</a></li>
+                        <li class="has-submenu">
+                            <a id="botao-submenu" href="#">Eventos</a>
+                            <div id="submenu" class="nav-submenu">
+                                <a href="casamentos.html">Casamentos</a>
+                                <a href="empresariais.html">Empresariais</a>
+                            </div>
+                        </li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <main class="container">
+            <h2 class="page-title">Cardápio</h2>
+            <div class="tabela-precos">
+                <h4>Almoço ou jantar</h6>
+                <table>
+                    <thead>
+                        <th>Entradas</th>
+                        <th>Inteira</th>
+                        <th>Meia</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                           <td>Pães integrais com mel e manteiga</td>
+                            <td>R$ 20,00</td>
+                            <td>R$ 15,00</td>
+                        </tr>
+                        <tr>
+                            <td>Salada verde</td>
+                            <td>R$ 16,00</td>
+                            <td>R$ 12,00</td>
+                        </tr>
+                        <tr>
+                            <td>Salada de folhas com frutas da estação</td>
+                            <td>R$ 18,00</td>
+                            <td>R$ 14,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+                
+                <div class="cardapio-ilustrado cardapio-flex">
+                    <figure>
+                        <img class="imagem-cardapio" src="img/cardapio1-pao.jpg" alt="Vista superior de uma tabula. Sobre ela está um pão caseiro recem saido do forno e uma faca.">
+                        <figcaption class="legenda-cardapio">Pães integrais com mel e manteiga</figcaption>
+                    </figure>
+                    
+                    <figure>
+                        <img class="imagem-cardapio" src="img/cardapio2-salada.jpg" alt="Imagem de um prato com mix de folhas, flores e frutas">
+                        <figcaption class="legenda-cardapio">Salada de folhas com frutas da estação.</figcaption>
+                    </figure>
+                    
+                    <figure>
+                        <img class="imagem-cardapio" src="img/cardapio1-salada1.jpg" alt="Imagem de um prato com folhas de rúcula em cima de uma mesa de madeira. Ao seu lado há um vidro de azeite e maçãs verdes.">
+                        <figcaption class="legenda-cardapio">Salada verde ao molho de iogurte</figcaption>
+                    </figure>
+                </div>
+                
+                <div class="tabela-precos">
+                    <h4>Pratos principais</h4>
+                    <table>
+                        <thead>
+                            <th></th>
+                            <th>Inteira</th>
+                            <th>Meia</th>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td>Macarrão com frutos do mar ao molho</td>
+                                <td>R$ 20,00</td>
+                                <td>R$ 15,00</td>
+                            </tr>
+                            <tr>
+                                <td>Spaghetti de alcaparras e alho frito</td>
+                                <td>R$ 16,00</td>
+                                <td>R$ 12,00</td>
+                            </tr>
+                            <tr>
+                                <td>Pizza de pepperoni e manjericão fresco</td>
+                                <td>R$ 18,00</td>
+                                <td>R$ 14,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="cardapio-ilustrado cardapio-flex">
+                    <figure>
+                        <img class="imagem-cardapio" src="img/cardapio3-massa.jpg" alt="Foto de um saboroso macarrão spaguetti com molho de tomate, queijo ralado e manjericão">
+                        <figcaption class="legenda-cardapio">Macarrão com frutos do mar ao molho</figcaption>
+                    </figure>
+                    
+                    <figure>
+                        <img class="imagem-cardapio" src="img/cardapio4-massa.jpg" alt="Foto de um risoto cremoso de alcaparras salpicado com alho">
+                        <figcaption class="legenda-cardapio">Spaghetti de alcaparras e alho frito</figcaption>
+                    </figure>
+                    
+                    <figure>
+                        <img class="imagem-cardapio" src="img/cardapio5-pizza.jpg" alt="Foto aproximada de uma pizza. Sua base é de molho vermelho e queijo mussarela, coberta por pepperoni e salpicada com azeitonas pretas e manjericão">
+                        <figcaption class="legenda-cardapio">Pizza de pepperoni e manjericão fresco</figcaption>
+                    </figure>
+                </div>
+                
+                <div class="tabela-precos">
+                    <h4>Sobremesas especiais</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Inteira</th>
+                                <th>Meia</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sobremesas especiais</td>
+                                <td>R$ 20,00</td>
+                                <td>R$ 15,00</td>
+                            </tr>
+                            <tr>
+                                <td>Bolo surpresa com calda vermelha</td>
+                                <td>R$ 16,00</td>
+                                <td>R$ 12,00</td>
+                            </tr>
+                            <tr>
+                                <td>Petit gateau de limão à la parisiense</td>
+                                <td>R$ 18,00</td>
+                                <td>R$ 14,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="cardapio-ilustrado cardapio-flex">
+                    <figure>
+                        <img class="imagem-cardapio" src="img/cardapio6-macarons.jpg" alt="Foto de um bowl cheio de macarrons visto de cima. Dentro do bowl existem quatro sabores de macarrons: morango, na cor rosa; limão, na cor verde; chocolate, na cor marrom; caramelo, na cor bege"> 
+                        <figcaption class="legenda-cardapio">Macarons sortidos dinamarqueses</figcaption>
+                    </figure>
+                    
+                    <figure>
+                        <img class="imagem-cardapio" src="img/cardapio7-bolo.jpg" alt="Foto de uma mesa com uma toalha florida. Sobre a mesa estão um prato grande com um bolo e um prato menor com um pedaço do bolo e um garfo. O bolo tem massa clara, com cobertura de açucar e framboesas">                        
+                        <figcaption class="legenda-cardapio">Bolo surpresa com calda vermelha</figcaption>
+                    </figure>
+                    
+                    <figure>
+                        <img class="imagem-cardapio" src="img/cardapio8-petitgateau.jpg" alt="Foto de um prato de petit gateau claro com frutas vermelhas. Ao fundo é possível ver uma jarra despejando calda clara sobre o petit gateau. Em cima da mesa também há morangos e outra jarra de calda">
+                        <figcaption class="legenda-cardapio">Petit gateau de limão à la parisiense</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </main>
+            
+        <section class="container">
+            <div class="video-cardapio">
+                <p class="legenda-video">Confira um pouco dos bastidores de como preparamos nossos pratos</p>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/hY-tjMDWH9c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                </iframe>
+            </div>
+        </section>          
+        
+        <footer>
+            <div class="container flex">
+                <!-- coluna 1 -->
+                <address>
+                    <h4>A Cozinharia</h4>
+                    <p>Rua Frei Caneca, 920 - Consolação</p>    
+                    <p>Tel: 11 4443 0324</p>
+                    <p>e-mail: contato@acozinharia.com.br</p>
+                </address>
+                    
+                <!-- coluna 2 -->
+                <div class="horario-de-funcionamento">
+                    <h4>Horário de funcionamento:</h4>
+                    <p>Segunda a Quarta das 12h às 15h / 19h30 às 23h</p>
+                    <p>Quinta e Sexta das 12h às 15h / 19h30 às 00h</p>
+                    <p>Sábado das 12h às 00h - direto</p>   
+                    <p>Domingo das 12h às 17h</p>
+                </div>
+                    
+                <!-- coluna 3 -->
+                <div>
+                    <a href="https://www.facebook.com/programaria/" target="_blank">
+                        <img class="social" src="img/facebook.png" alt="logo Facebook">
+                    </a>
+                    <a href="https://twitter.com/programaria" target="_blank">
+                        <img class="social" src="img/twitter.png" alt="logo twitter">
+                    </a>
+                    <a href="https://www.linkedin.com/company/programaria.org" target="_blank">
+                        <img class="social" src="img/linkedin.png" alt="logo linkedin">
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="javascript/index.js"></script>
+    </body>
+</html>

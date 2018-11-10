@@ -1,0 +1,64 @@
+main {
+    background-color: #F8F8F8;
+    padding: 100px 0px 100px 0px;
+}
+
+.contato-texto {
+    display: flex;
+    justify-content: space-between;
+    line-height: 25px;
+    padding-right: 150px;
+    margin-bottom: 50px;
+}
+
+.contato-icone {
+    padding-top: 5px;
+    width: 15px;
+}
+
+iframe {
+    size: 900px;
+}
+
+.formulario {
+    display: block;
+    margin-top: 70px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.formulario label, 
+.formulario input,
+.formulario select,
+.formulario textarea {
+    display: block;
+    height: 30px;
+    width: 100%;
+}
+
+.formulario .nome {
+    border-top: 10px;
+}
+
+@media (max-width: 768px) {  
+    .contato-texto {
+        padding-right: 0;
+    }
+
+    .contato-endereco, .contato-horario {
+        width: 45%;
+    }
+}
+
+@media (max-width: 576px) {
+    .contato-texto {
+        display: block;
+    }
+
+    .contato-horario {
+        margin-top: 50px;
+    }
+    .contato-endereco, .contato-horario {
+        width: 100%;
+    }
+}

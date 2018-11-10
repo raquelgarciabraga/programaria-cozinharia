@@ -1,0 +1,101 @@
+.container-cozinharia {
+    display: flex;
+}
+
+main {
+    background-color: #F8F8F8;
+    padding: 100px 0px 100px 0px;
+}
+
+.cozinharia-texto {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 0px 40px 0px 0px;
+    width: 49%;
+}
+
+.cozinharia-img {
+    padding-top: 130px;
+    width: 49%;
+}
+
+.a-cozinharia-imagens-avulsas {
+    width: 100%;
+}
+
+.subtitulo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 40px;
+    margin-top: 50px;
+}
+
+.texto-cinza {
+    color: gray;
+    font-weight: lighter;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+}
+
+@media (max-width: 768px) {
+    .container-cozinharia {
+        display: block;
+    }
+
+    .cozinharia-texto {
+        padding: 0px;
+        width: 90%;
+    }
+
+    .a-cozinharia-imagens-avulsas {
+        width: 410px;
+    }
+}
+
+/* galeria de foto */
+
+section {
+    background-color: white;
+    display: flex;
+    margin-bottom: 90px;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 25px 0px;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 100%;
+}
+
+figure {
+    width: 16.5%;
+}
+
+@media (max-width: 768px) {
+    h5 {
+        text-align: center;
+    }
+
+    .flex2 {
+        flex-wrap: wrap;
+    }
+
+    figure {
+        align-self: center;
+        margin: 2px;
+        width: 49%;
+    }
+}
+
